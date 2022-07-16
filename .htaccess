@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(cart/|checkout/) https://%{HTTP_HOST}%{REQUEST_URI}
